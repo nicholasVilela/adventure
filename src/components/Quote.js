@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios'
 
-class Insult extends Component {
+class Quote extends Component {
     state = {
         quote: ''
     }
@@ -32,4 +32,4 @@ class Insult extends Component {
     }
 }
 
-export default Insult;
+export default Quote;

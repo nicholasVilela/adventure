@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
-import Insult  from './components/Insult'
+import Quote  from './components/Quote'
 
 class App extends Component {
   render() {
-    return <Insult />
+    return <Quote />
   }
 }
 
