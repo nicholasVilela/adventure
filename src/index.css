@@ -1,5 +1,6 @@
 :root {
   font: 16px / 1 sans-serif;
+  background-color: darkslateblue;
 }
 
 html {
@@ -9,4 +10,29 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+}
+
+#button-container {
+  display: flex;
+  position: relative;
+  left: 39rem;
+  justify-content: center;
+  align-items: center;
+}
+
+#quote-container {
+  display: flex;
+  text-align: center;
+  position: relative;
+  top: 5rem;
+  justify-content: center;
+  color: whitesmoke;
+}
+
+#title {
+  display: flex;
+  position: relative;
+  text-align: center; 
+  color: whitesmoke;
+  justify-content: center;
 }

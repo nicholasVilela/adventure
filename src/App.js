@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
-import HelloWorld from './components/HelloWorld'
+import Insult  from './components/Insult'
 
 class App extends Component {
   render() {
-    return <HelloWorld />
+    return <Insult />
   }
 }
 
